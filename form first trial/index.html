@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORM </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <H1> Osibs recruitment form </H1>
+
+    <form id="form">
+    <div class="form-control"> 
+    <label for="name" id="responder-name">
+        NAME
+    </label>
+    <input type="text" id="name" placeholder= "Type out your name" >
+    </div>
+
+    <div class="form-control"> 
+        <label for="email" id="responder-email">
+            EMAIL
+        </label>
+        <input type="email" id="email" placeholder="Type out your email">
+    </div>
+
+    <div class="form-control">
+        <label for="age" id="responder-age">
+            AGE
+        </label>
+
+        <input for="text" id="age" placeholder="Your age">
+    </div>
+
+    <br>
+    <div class="form-control">
+        <label for="role" id="responder-role">
+            What describes you best?
+        </label>
+
+        <select name="role" id="role">
+            <option value="student"> STUDENT </option>
+            <option value="intern"> INTERN </option>
+            <option value="professional"> PROFESSIONAL </option>
+            <option value="others"> OTHERS </option>
+        </select>
+    </div>
+
+
+    <div class='form-control'>
+        <label> 
+            WOULD YOU RECOMMEND OUR OPPOTUINITIES TO YOUR FRIENDS?
+        </label>
+
+        <label for="YES">
+        <input type="radio" 
+        name="reco" 
+        id="YES" 
+        value="Yes">YES </input>
+        </label>
+        
+        <input type="radio" name="reco" id="NO" value="NO">
+        <label for="NO"> NO </label>
+        
+        <input type="radio" name="reco" id="MAYBE" value="MAYBE">
+        <label for="MAYBE"> MAYBE </label>
+    </div>
+
+    <div class="form-control">
+    <label> 
+        PROGRAMMING LANGUAGES YOU ARE FAMILIAR WITH
+    </label>
+
+    <label for="C">
+        <input type="checkbox" name="lang" id="C"> C </input>
+    </label>
+
+    <label for="C++">
+        <input type="checkbox" name="lang" id="C++"> C++ </input>
+    </label>
+
+    <label for="JAVASCRIPT">
+        <input type="checkbox" name="lang" id="JAVASCRIPT"> JAVASCRIPT </input>
+    </label>
+
+    <label for="PYTHON">
+        <input type="checkbox" name="lang" id="PYTHON"> PYTHON </input>
+    </label>
+
+    <label for="C#">
+        <input type="checkbox" name="lang" id="C#"> C# </input>
+    </label>
+
+    <label for="REACT">
+        <input type="checkbox" 
+        name="lang"> REACT </input></label>
+
+    <label for="ANGULAR">
+        <input type="checkbox" name="lang" id="ANGULAR"> ANGULAR </input>
+    </label>
+</div>
+
+<div class="form-control"> 
+    <label for="comments">
+       DO YOU HAVE ANY QUESTION YOU HAVE FOR US??
+    </label>
+
+    <textarea name="comment" id="comment" placeholder="Enter your question here!">
+        
+    </textarea>
+</div>
+
+<button class="button" type="submit" value="submit"> SUBMIT</button>
+
+</form>
+</body>
+</html>
